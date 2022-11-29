@@ -1,5 +1,4 @@
-// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-// SPDX-License-Identifier: MIT-0
+
 
 resource "aws_security_group" "spoke_vpc_a_endpoint_sg" {
   name        = "spoke-vpc-a/sg-ssm-ec2-endpoints"
