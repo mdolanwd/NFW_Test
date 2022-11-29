@@ -1,5 +1,4 @@
-// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-// SPDX-License-Identifier: MIT-0
+
 
 resource "aws_vpc" "inspection_vpc" {
   cidr_block       = local.inspection_vpc_cidr
