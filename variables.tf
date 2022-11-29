@@ -1,6 +1,6 @@
 variable "super_cidr_block" {
   type    = string
-  default = "10.0.0.0/8"
+  default = "10.0.0.0/23"
 }
 
 locals {
